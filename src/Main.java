@@ -16,6 +16,8 @@ public class Main {
                 break;
             case 0:
                 System.out.println("Установите версию для iOS по сслыке");
+            default:
+                System.out.println("У вас не телефон");
         }
     }
     public static void task2 ()
@@ -35,7 +37,7 @@ public class Main {
     }
     public static void task3 () {
         System.out.println("Задача 3");
-        int year = 696;
+        int year = 800;
         if ((year % 100 != 0 || year % 400 == 0) && year % 4 == 0) {
             System.out.println(year + " год является високосным");
         } else
